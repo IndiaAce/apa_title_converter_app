@@ -22,7 +22,7 @@ def main(): #This program only exists to help me insert my article heads into my
     is_copy = input('Is the text you want to format copied to your clipboard now?(y/n): ')
     if is_copy == 'y':
         alreadyCopied()
-    if is_copy == 'n':
+    elif is_copy == 'n':
         needToCopy()
     else:
         print('Error 404: Please relaunch program and try again. Beep boop.')
